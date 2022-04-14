@@ -8,7 +8,11 @@
         margin-top: 5px;
         width: 300px;
     }
-    
+    .teste-video{
+        width: 500px;
+        height: 300;
+    }
+  
 }
 
 @media screen and (min-width:1000px){
@@ -28,4 +32,35 @@
         width: 300px;
     }
     
+    .teste-video{
+        width: 400px;
+        height: 200px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
   
+}
+
+@media screen and (max-width:300px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+    
+    .teste-video{
+        width: 200px;
+        height: 100px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+  
+}
+
+
